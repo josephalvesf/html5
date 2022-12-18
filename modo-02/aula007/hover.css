@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+div:hover{
+    color: brown;
+}
+div > p{
+    display: none;
+
+}
+/*  div > p (quando tem o maior que > um vai ser o pai e o outro o filho.
+pai > filho  )
+display:-> mostra
+none-> é nada.
+display: none -> não mostre nada.
+*/
+
+
+div:hover > p{
+    display: block;
+    color: blueviolet;
+    background-color: aquamarine;
+    text-align: center;
+    width: 600px;
+}
+
+/*
+div:hover > p (quando passar o mause da div vai mostra o conteudo {vai msotra o conteudo usando o display:block} )
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

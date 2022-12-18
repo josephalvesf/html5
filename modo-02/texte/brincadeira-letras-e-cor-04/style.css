@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+body{
+    background-image:linear-gradient(to right, #B103FD,#6102E3,#320FFA,#021DE3, #0362FD  )
+}
+main{
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 5px,5px,15px #19373b;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    text-shadow: 13px 20px 25px  rgba(236, 20, 20, 0.932);
+}
+h2{
+    text-align: justify;
+}
+#joll{
+    color: rgb(162, 213, 213);
+    font-family: 'Pacifico', cursive;
+}
+.j:hover{
+    color: #B103FD;
+    background-color: rgb(22, 126, 216);
+    font-family: 'Great Vibes', cursive;
+}
+.o:hover{
+    text-shadow: 10px 20px 25px rgb(26, 6, 248);
+    text-align: center;
+
+}

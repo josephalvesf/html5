@@ -1,0 +1,4 @@
+h1{/*esse box-shadow vai pega toda a tag.*/
+    box-shadow: 1px 1px 1px black;
+    text-align: center;
+}

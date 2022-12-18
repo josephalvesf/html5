@@ -1,0 +1,22 @@
+div{
+   
+    border: 1px solid#000;
+    text-align: center;    
+    width: 200px;
+    height: 200px;
+}
+div > a{
+    display: none;
+}
+div:hover > a{
+    display: block;
+
+}
+a:hover::after{
+    content: 'links';
+    color: brown;
+}
+a:hover::before{
+    content: 'lin';
+    color: chocolate;
+}

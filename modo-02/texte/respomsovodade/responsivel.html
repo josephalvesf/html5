@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:white ;
+            padding: 20px;
+            border-radius: 10px;
+            width: 800px;
+
+            min-width:280px ;/*o minimi que a ela fica, não faz nada com a imagem.*/
+            max-width:800px;/*o maximo que ficar, nao faz nada com a imagen*/
+            margin: auto;
+
+        }
+        img{
+            width: 100%;/*vai deixar a imagem 100% nao inporntando o tamanho da tela.*/
+        }
+    </style>
+</head>
+<body><main>
+    <h1>Testendo responsividade</h1>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus autem quos alias impedit aliquam beatae labore, blanditiis molestias asperiores nostrum ab debitis, voluptatum ex. Consectetur, magni architecto. Voluptas, assumenda numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime inventore expedita, aspernatur consequatur quis officia facilis est mollitia error assumenda illo quasi. Est, doloribus itaque! Incidunt, corrupti doloremque. Iusto, vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi assumenda placeat quaerat consequuntur, sapiente mollitia ipsum quas ducimus ullam sequi cupiditate quod, repellendus possimus corporis cumque temporibus? Sit, recusandae aliquid.</P>
+    
+    <picture> <!--aqui ja foi visto, é a forma de deixar a imagem certo do tamanho certo, vai mudar conforme a tela vai se mecehndo.-->>
+        <source media="(max-width:600px )" srcset="mulher-g.jpg">
+        <img src="mulher-p-.jpg" alt="">
+    </picture>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus autem quos alias impedit aliquam beatae labore, blanditiis molestias asperiores nostrum ab debitis, voluptatum ex. Consectetur, magni architecto. Voluptas, assumenda numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime inventore expedita, aspernatur consequatur quis officia facilis est mollitia error assumenda illo quasi. Est, doloribus itaque! Incidunt, corrupti doloremque. Iusto, vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi assumenda placeat quaerat consequuntur, sapiente mollitia ipsum quas ducimus ullam sequi cupiditate quod, repellendus possimus corporis cumque temporibus? Sit, recusandae aliquid.</P>
+
+    </main>
+    <img src="" alt="">
+</body>
+</html>

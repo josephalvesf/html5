@@ -1,0 +1,10 @@
+#a:hover{
+    background-color: aquamarine;
+    color: blue;
+}
+mark{
+    color: aqua;
+}
+button:hover{
+    color: blue;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Só vendo o que sabe</title>
+    <style>
+
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        :root{ /*isso é uma variavel(cor é nome que vai ser lado, edpois é colocado o atributo) */
+            --cor0:#c5ebd6;
+            --cor1:#83e1ad;
+            --cor2:#3ddc84;
+            --cor3:#063d1e;
+
+
+            --fontes-padrao:Arial, Helvetica;
+
+
+        }
+        body{
+            margin: auto;
+            max-width:800px;
+            min-width:280px;
+            background-color: var(--cor2);
+            font-family: var(--fontes-padrao);
+        }
+        main{
+            
+            padding: 10px;
+            border-radius: 30px;
+            border: 1px solid #000;
+            margin: auto;
+            background-image: linear-gradient(to right,var(--cor1),var(--cor3));
+            height:600px ;
+            width: 600px;
+
+        }
+        img{
+            width: 100%;/*ele vai ficar 100% dentro da tag que ele esta e ainda vai mudando de furma conforme a tela mode de pc ou para celular.*/
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>texte01</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores nemo ex eius deleniti consequuntur id delectus quaerat dolorum maiores tenetur dolor aut ipsum quae quia nobis laboriosam odio, iste iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt tempore temporibus dolores voluptatum quo earum. Obcaecati iusto ullam cum quis delectus, vitae ad placeat tenetur. Consectetur alias ratione accusantium perspiciatis?</p>
+        <h2>texte02</h2>
+        <img src="mulher-p-.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam minus sunt consequatur temporibus aspernatur, eos voluptate quasi molestiae quibusdam at sint non aliquid porro? Neque itaque accusantium expedita aspernatur voluptas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil laudantium, corrupti ullam impedit corporis deserunt non cum natus eum quaerat delectus est blanditiis maxime odit magni quia minima explicabo necessitatibus!</p>
+        <h3>texet03</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas recusandae maxime rem harum maiores iusto totam eveniet nesciunt reprehenderit, quam, praesentium voluptates, id esse eaque reiciendis. Molestiae temporibus repellat quaerat?</p>
+    </main>
+</body>
+</html>

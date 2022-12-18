@@ -1,0 +1,41 @@
+body{
+    background-image: linear-gradient( to right, #26FDE0,#22E393,#32FA6E,#22E325,#6CFD26   );
+}
+main{
+    margin: auto;
+    height: 600px;
+    width: 600px;
+    background-color: aliceblue;
+}
+
+h1{
+    outline-width: 10px; /*Grusura da borda na borda*/
+    outline-style: double;/*formato da borda na borda*/
+    outline-color: blue;/*corda da borda que esta em volta da borda*/
+
+   margin: auto;
+
+    padding: 10px,10px,10px,10px;/*usado para deixar a borda mais pertou ou maus longe*/
+    height: 36px;/*altura*/
+    width: 75px;/*largura*/
+    border-width:10px ; /*borda largura*/
+    border-style: dashed;/*borda estilo*/
+    border-color: aquamarine;/*borda cor*/
+}
+h2{
+    height: 60px;
+    width: 60px;
+    border-width: 20px;
+    border-style: groove;
+    border-color: blueviolet;
+    padding: 20px;
+    outline-width:10px ;
+    outline-style: dashed;
+    outline-color: brown;
+
+}
+p{
+    border:20px groove burlywood ;
+    padding: 30px;
+    outline: 10px dashed darkolivegreen ;
+}

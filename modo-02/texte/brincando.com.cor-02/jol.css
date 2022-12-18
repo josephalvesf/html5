@@ -1,0 +1,64 @@
+@charset "UTF-8"
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: linear-gradient(to right,
+    #27739C,#17445C,#36A1DB,#3AABE8,#308FC2);
+
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #153f55b2;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1 {
+    color:#27739C ;
+}
+h1{
+    color: ;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(175, 33, 33, 0.63);
+}
+h1:hover{
+    text-shadow: 2px 2px 5px rgb(3, 114, 3); 
+    color: black;
+
+}
+p{
+    text-align: justify;
+
+}
+main:hover{
+    background-color: rgba(217, 92, 219, 0.623);
+}
+body{
+    font-size: 1em;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+h1{
+    font-family: "work-sans", sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+    /*shorthand font 
+
+
+    font-style-> font-weight-> font-size-> font-family
+
+    estilo de fonte->espessura da fonte-> tamanho da fonte->família de fontes
+
+    */
+    font:italic bolder 3em "work sans", sans-serif
+
+
+
+}
+
+

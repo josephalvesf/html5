@@ -1,0 +1,35 @@
+
+
+body{
+    background-image: linear-gradient(to right ,#eff5ef05,#3ed0e684  )
+
+}
+
+
+.d2{
+
+    padding: 10px;
+    outline: 10px;
+    
+    height: 143px;
+    width: 1356px;}
+.d1{
+
+    display: inline-block;/*para deixar as tag umadoladodaoutra*/
+    text-align: center;
+  
+    padding: 0px;
+    margin: -1px;
+  outline: 10px;
+   
+}
+div{       
+    background-image: linear-gradient(to right ,#34BF34,#228022,#47FF46,#114011,#3EE63E  );
+}
+main{
+    
+    background-color: aliceblue;
+    margin: auto;
+    width: 800px;
+    
+}

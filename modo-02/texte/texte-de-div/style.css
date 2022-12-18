@@ -1,0 +1,59 @@
+div{
+    display: inline-block;
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+   
+    text-align: center;
+}
+div >  p{
+    display: none;
+}
+div:hover  > p{
+    display: block;
+    color: rgb(11, 26, 235);  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

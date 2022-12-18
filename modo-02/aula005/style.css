@@ -1,0 +1,28 @@
+body{background-image: linear-gradient(to right, #EBD28F, #F5D195, #DFB993, #F5B795,#EBA28F );
+
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px,5px,15px #19373b;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    text-align: right;
+    color: aqua;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+h2#pra{
+    text-align:right;
+}
+h2#pre{text-align: justify;
+color: #F5D195;
+background-color: #DFB993;}
+

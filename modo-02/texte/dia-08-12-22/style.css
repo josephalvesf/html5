@@ -1,0 +1,25 @@
+
+:root{
+    --cor0:#E64EB8;
+    --cor1:#DE51F0;
+    --cor2:#A655D9;
+    --cor3:#8851F0;
+    --cor4:#594EE6;
+ }
+ main{
+    width: 600px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.792);
+    text-align: center;
+    margin: auto;
+ }
+ main h1{
+    color: aqua;
+    
+ }
+ main p{
+    color: yellow;
+ }
+ body{
+    background-image: linear-gradient(to right,var(--cor0), var(--cor1),var(--cor2),var(--cor3),var(--cor4));
+ }

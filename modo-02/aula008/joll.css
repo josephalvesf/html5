@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    color: rgb(0, 255, 136);
+    text-decoration: none;
+    /* text-decoration: none;-> para tira sobrinhado */
+    font-weight: bold;
+    /*para deixar a fonte em negrito*/
+}
+a:visited{
+    /*aqui é quando osite ja foi visitado*/
+    color: burlywood;
+}
+a:hover{
+    text-decoration: underline;
+    /* para colocar o sobriganhdo */
+    color: darkorange;
+}
+
+a:active{
+    /*quando o conteudo esta ativo. ou melhor dizendo quando vc aperta com o mause*/
+    color: blue;
+
+
+
+
+
+}
+/*pseudo-elemento são 2 pontos ::*/
+
+a:hover::after{
+    /*para para usar o pseudo-elemento junto com o pseudo-class*/
+    /*after é depois.*/
+    content: '[links]';
+    /*content é para colocar um conteudo */
+
+}
+a::before{
+    /*before é antes do conteudo.*/
+    content:'[lin]' ;
+}
+.j:hover::before{
+    content:'José ' ;
+    color: blueviolet;
+}
+.j:hover::after{
+    content: ' Nubia';
+    color: aquamarine;
+    
+}
+/*
+ #=id
+ .= class
+ : = pseudo-class
+ :: = pseudo-element
+ > = clildren ( esse é o filho)
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

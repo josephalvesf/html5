@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="imagens.ico/favicon.ico" type="image/x-icon">
+    <title>Imagem Flexivel</title>
+</head>
+<body>
+    <h1>Imagem flexivel</h1>
+    <p>Voçê esta vendo imagem comple? Experimente amplicar o tamanho da sua janela para aproveita a melhor experiencia </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens-flexives/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens-flexives/foto-m.png" type="image/png">
+        <img src="imagens-flexives/foto-g.png" alt="imagens-flexives">
+    </picture>
+
+    <picture>
+        <source media="(max-width: 550px)" srcset="imagens-Flexiel/200px.jpg" type="image/jpeg">
+        <source media="(max-width: 750px)" srcset="imagens-Flexiel/500px.jpg" type="image/jpeg">
+        <source media="(max-width: 1050px)" srcset="imagens-Flexiel/700px.jpg" type="image/jpeg">
+        <img src="imagens-Flexiel/1000px.jpg" alt="imagemfull">
+    </picture>
+    
+</body>
+</html>

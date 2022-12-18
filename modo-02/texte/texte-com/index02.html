@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;/*forma a fonte*/
+            background-color: dimgray;/*colocar cor de fundo.*/
+            margin: 0px;
+                    }
+        head{
+             width: 600px; /*muda a largura.*/
+             background-color: white;/*colocar cor de fundo na tela.*/
+             padding: 10px;/*aumenta a largura antes da borda.*/
+             margin: 10px; /*modificar a marque (seria diminuir ou aumenta.)*/
+
+            }
+        nav{
+            background-color: rgb(102,102,102);
+            padding: 3px;/*para deixar um pouco mais gordinha*/
+        }    
+        nav > a{
+            text-decoration: none;/*para tira a decoração*/
+            color: wheat;
+            font-weight: bold;
+            margin-right: 30px;/*deixar uma marge entre ele.*/
+        }
+        nav > a:hover{
+            text-decoration: underline;/*colocar e feito quando passa o mause.*/
+        }
+
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            
+        }
+
+
+
+        footer{
+            background-color: black;
+            color: white;/*cor da letra*/
+            padding: 5px;
+            text-align: center;/*certaliza o letra.*/
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(165,165,165);
+        }
+        div#bola{
+            height: 100px;/*autura*/
+            width: 100px; /*largura*/
+            margin: 10px;/*margi*/
+            background-color: white;/*deixar branco*/
+            border-radius: 50%;/*vai trasforma em uma bola.*/
+            border-radius: ;/*normal*/
+            border-top-left-radius: ;/*em cima*/
+            border-top-right-radius: ;/* esquerda*/
+            border-bottom-right-radius: ;/*em baixo*/
+            border-bottom-left-radius: ;/*direta*/
+        }
+
+
+
+    </style>
+</head><!--cabesario-->
+<body>
+<!--tag semanticas-->
+   <!----> <header>
+        <H1>Meu site</H1>
+        <nav><!--usado para menu-->
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <aside>
+                    <h2>Noticia sobre o brasil</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut deleniti debitis laudantium maxime ipsam hic esse, animi modi. At architecto eum recusandae molestias, doloremque ab quae eius voluptatibus qui culpa.</p>
+                    <p>Artigo escrito por José</p>
+                </aside>
+                <aside>
+                    
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Jow</p>
+    </footer>
+    <div id="bola"></div>
+    
+</body>
+</html>
