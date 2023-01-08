@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posicionamento</title>
+    <style>
+        body
+        {
+            background-color: rgba(118, 44, 155, 0.409);
+        }
+        
+        div.quadrado
+        {
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: 30px;
+            display: inline-block;
+        }
+        div#q1
+        {
+            background-size: 40px;
+            background-image: url('/modo-03/exer003-imgens-fundo/exer003-position/imagens/github-m.png');
+           
+            background-color: rgba(127, 255, 212, 0.245);
+        
+        }
+        div#q1:hover
+        {
+            background-size: 40px;
+            background-image: url('/modo-03/exer003-imgens-fundo/exer003-position/imagens/github-m.png');
+            background-repeat:no-repeat ;
+            background-color: aquamarine;
+            background-position: left top; /*esquerda em cima*/
+           
+        }
+        div#q2
+        {
+            background-size: 40px;
+            background-image: url('/modo-03/exer003-imgens-fundo/exer003-position/imagens/github-m.png');
+            background-color: rgba(127, 255, 212, 0.245);
+           
+        
+        }
+        div#q2:hover
+        {
+            background-size: 40px;
+            background-image: url('/modo-03/exer003-imgens-fundo/exer003-position/imagens/github-m.png');
+            background-repeat:no-repeat ;
+            background-color: aquamarine;
+            background-position: center top;/*centro em cima*/
+           
+        }
+        div#q3
+        {
+            background-size: 40px;
+            background-image: url('/modo-03/exer003-imgens-fundo/exer003-position/imagens/github-m.png');
+            background-color: rgba(127, 255, 212, 0.245);
+           
+        
+        }
+        div#q3:hover
+        {
+            background-size: 40px;
+            background-image: url('/modo-03/exer003-imgens-fundo/exer003-position/imagens/github-m.png');
+            background-repeat:no-repeat ;
+            background-color: aquamarine;
+            background-position:  top right; /*direta em cima  right = direta*/
+           
+        }
+        div#q4
+        {
+            background-size: 40px;
+            background-image: url('/modo-03/exer003-imgens-fundo/exer003-position/imagens/github-m.png');
+            background-color: rgba(127, 255, 212, 0.245);
+           
+        
+        }
+        div#q4:hover
+        {
+            background-size: 40px;
+            background-image: url('/modo-03/exer003-imgens-fundo/exer003-position/imagens/github-m.png');
+            background-repeat:no-repeat ;
+            background-color: aquamarine;
+            background-position: left center; /*esquerda centro left= esquerda*/
+           
+        }
+        div#q5
+        {
+            background-size: 40px;
+            background-image: url('/modo-03/exer003-imgens-fundo/exer003-position/imagens/github-m.png');
+            background-color: rgba(127, 255, 212, 0.245);
+           
+        
+        }
+        div#q5:hover
+        {
+            background-size: 40px;
+            background-image: url('/modo-03/exer003-imgens-fundo/exer003-position/imagens/github-m.png');
+            background-repeat:no-repeat ;
+            background-color: aquamarine;
+            background-position: center ;
+           
+        }
+        div#q6
+        {
+            background-size: 40px;
+            background-image: url('/modo-03/exer003-imgens-fundo/exer003-position/imagens/github-m.png');
+            background-color: rgba(127, 255, 212, 0.245);
+           
+        
+        }
+        div#q6:hover
+        {
+            background-size: 40px;
+            background-image: url('/modo-03/exer003-imgens-fundo/exer003-position/imagens/github-m.png');
+            background-repeat:no-repeat ;
+            background-color: aquamarine;
+            background-position: center right;
+           
+        }
+        div#q7
+        {
+            background-size: 40px;
+            background-image: url('/modo-03/exer003-imgens-fundo/exer003-position/imagens/github-m.png');
+            background-color: rgba(127, 255, 212, 0.245);
+           
+        
+        }
+        div#q7:hover
+        {
+            background-size: 40px;
+            background-image: url('/modo-03/exer003-imgens-fundo/exer003-position/imagens/github-m.png');
+            background-repeat:no-repeat ;
+            background-color: aquamarine;
+            background-position: right bottom;
+           
+        }
+        div#q8
+        {
+            background-size: 40px;
+            background-image: url('/modo-03/exer003-imgens-fundo/exer003-position/imagens/github-m.png');
+            background-color: rgba(127, 255, 212, 0.245);
+           
+        
+        }
+        div#q8:hover
+        {
+            background-size: 40px;
+            background-image: url('/modo-03/exer003-imgens-fundo/exer003-position/imagens/github-m.png');
+            background-repeat:no-repeat ;
+            background-color: aquamarine;
+            background-position: center bottom;
+           
+        }
+        div#q9
+        {
+            background-size: 40px;
+            background-image: url('/modo-03/exer003-imgens-fundo/exer003-position/imagens/github-m.png');
+            background-color: rgba(127, 255, 212, 0.245);
+           
+        
+        }
+        div#q9:hover
+        {
+            background-size: 40px;
+            background-image: url('/modo-03/exer003-imgens-fundo/exer003-position/imagens/github-m.png');
+            background-repeat:no-repeat ;
+            background-color: aquamarine;
+            background-position: left bottom;
+           
+        }
+
+        
+        
+    </style>
+        
+    
+</head>
+<body>
+    <div class="quadrado" id="q1"> </div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
+    <div class="quadrado" id="q4"></div>
+    <div class="quadrado" id="q5"></div>
+    <div class="quadrado" id="q6"></div>
+    <div class="quadrado" id="q7"></div>
+    <div class="quadrado" id="q8"></div>
+    <div class="quadrado" id="q9"></div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posição dos fundo</title>
+    <style>
+        div.quadrado
+        {
+            border: 2px solid black;
+            height: 200px;
+            border-radius: 20px;
+            margin: 10px;
+            background-image: url('/modo-03/imagens/wallpaper002.jpg');
+        }
+       div#q1
+       {
+        background-position: left top;
+       }
+       div#q1:hover
+       {
+            border: 2px dashed rgb(101, 23, 23);
+            height: 200px;
+            border-radius: 20px;
+            margin: 10px;
+            background-position: left top;
+            background-image: url('/modo-03/imagens/wallpaper003.jpg');
+            
+       }
+       div#q2
+       {
+        background-position:center ;
+       }
+       div#q2:hover
+       {        
+        border: 2px dashed rgb(101, 23, 23);
+        background-image: url('/modo-03/imagens/wallpaper003.jpg');     
+        background-position: center;       
+       }
+       div#q3
+       {background-position: right bottom;}
+       div#q3:hover
+       {
+        border: 2px dashed rgb(50, 23, 101);
+        background-image: url('/modo-03/imagens/wallpaper003.jpg');  
+        background-position:right bottom ;
+       }
+       div#q4
+       {
+        background-position: center;
+       }
+       div#q4:hover
+       {
+        border: 2px dashed rgb(23, 101, 63);
+        background-image: url('/modo-03/imagens/wallpaper003.jpg');  
+        background-position: center;
+       }
+        
+
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
+    <div class="quadrado" id="q4"></div>
+    <br>
+    <img src="/modo-03/imagens/wallpaper002.jpg" alt="">
+</body>
+</html>
