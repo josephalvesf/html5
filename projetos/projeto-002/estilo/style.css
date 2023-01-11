@@ -30,6 +30,7 @@ header > p
 
 }
 header a , footer a
+header a, footer a
 {
     color: white;
     text-decoration: none;/*tira efeito da barra de espaço do site.*/
