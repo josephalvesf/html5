@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela-grandes</title>
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table
+        {
+            width: 500px;
+            border-collapse:collapse ; /*junta td*/
+        }
+        td, th
+        {
+            border: 2px solid black;
+            padding: 10px;
+        }
+        thead, tfoot
+        {
+            background-color: gray;
+            color: white;
+        }
+        td.num
+        {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>minha Primeira Tabela Grnade</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRNADES
+        TABLE
+        Thead (cabeça) 
+        cabeça pode  TR, TD, TH
+
+        Tbody(corpo) -> o principal, so com ele dar para fazer
+        (corpo)-> TR, TD, TH
+
+        Tfoot(roda pé)
+        (Roda pé) -> TR, TD, TH
+    -->
+    <table>
+        <thead><!--cabeça-->
+            <tr><!--linha-->
+                <th><!--th vai como titulo-->
+                    estado
+                </th>
+                <th><!--th vai como titulo-->
+                    População
+                </th>
+            </tr>
+            
+        </thead>
+
+
+
+        <tbody><!--corpo-->
+            <tr><!--linha-->
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+        </tbody>
+
+
+        <tfoot><!--roda pé-->
+            <tr><!--linha-->
+                    <th><!--th vai como titulo-->
+                        Total de Habitantes
+                    </th>
+                    <td><!--Td é Dados-->
+                        100000
+                    </td>
+            </tr>
+        </tfoot>
+
+
+    </table>
+
+
+
+</body>
+</html>

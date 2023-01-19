@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela-Grande</title>
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table
+        {
+            width: 500px;
+            border-collapse:collapse ;/*junta tds*/
+        }
+        td, th
+        {
+            border: 2px solid black;
+        }
+        thead, tfoot
+        {
+            background-color: gray;
+            color: white;
+        }
+        td.num
+        {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha Segunda Tabela</h1>
+    <table>
+        <thead><!--Cabeça-->
+                <tr><!--linha-->
+                    <th><!--th é como titulo-->
+                        Posição
+                    </th>
+                    <th>Unidade Federativa</th>
+                    <th>População(Censo de 2010)</th>
+                </tr>
+
+        </thead>
+        <tbody><!--Corpo-->
+            <tr><!--linha-->
+                <td>1</td>
+                <th>São Paulo</th>
+                <td>41 262 199</td>
+            </tr>
+            <tr><!--2 linha-->
+                <td>2</td>
+                <th>Minas Gerais</th>
+                <td>19 597 330</td>
+            </tr>
+            <tr><!--3 linha-->
+                <td>3</td>
+                <th>Rio de Janeiro</th>
+                <td>15 989 929</td>
+            </tr>
+            <tr><!--4 linha-->
+                <td>4</td>
+                <th>bahia</th>
+                <td>14 016 906</td>
+            </tr>
+        </tbody>
+        <tfoot><!--Pé-->
+            <tr>
+                <th>total</th>
+                <th>Estados</th>
+                <td>100001000101</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
