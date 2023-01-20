@@ -15,6 +15,13 @@
             width: 500px;
             border-collapse:collapse ; /*junta td*/
         }
+        caption
+        {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: grey;
+        }
         td, th
         {
             border: 2px solid black;
@@ -29,6 +36,14 @@
         {
             text-align: right;
         }
+        tbody > tr:nth-child(odd)
+        {
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(evem) /* tbody > tr:nth-child(evem) um é so es inpares  (ou colocar 2n ou 2n-1 no lugar de evem ou odd)*/
+        {
+            background-color: white; /**/
+        }
     </style>
 </head>
 <body>
@@ -36,6 +51,7 @@
     <!--
         ANATOMIA PARA TABELAS GRNADES
         TABLE
+        caption
         Thead (cabeça) 
         cabeça pode  TR, TD, TH
 
@@ -44,14 +60,20 @@
 
         Tfoot(roda pé)
         (Roda pé) -> TR, TD, TH
+
+
+
+        th-> Usado para titulos.
+        td-> usado para dados.
     -->
     <table>
+        <caption>População</caption> <!--legenda da tabela(somente texto.)-->
         <thead><!--cabeça-->
             <tr><!--linha-->
-                <th><!--th vai como titulo-->
+                <th scope="col"><!--th vai como titulo-->
                     estado
                 </th>
-                <th><!--th vai como titulo-->
+                <th scope="col"><!--th vai como titulo--><!--scope col é para o titulo da mesma coluna, usado como representa a coluna td. -->
                     População
                 </th>
             </tr>
@@ -78,7 +100,7 @@
 
         <tfoot><!--roda pé-->
             <tr><!--linha-->
-                    <th><!--th vai como titulo-->
+                    <th scope="row"><!--th vai como titulo--><!--scope row que dizer que esta na mesma linha.-->
                         Total de Habitantes
                     </th>
                     <td><!--Td é Dados-->
@@ -90,6 +112,13 @@
 
     </table>
 
+
+    <table>
+        <caption></caption><!--tilulo da tabela-->
+        <thead></thead><!--cabela da tabela-->
+        <tbody></tbody><!--corpo tabela-->
+        <tfoot></tfoot><!--pé tabela-->
+    </table>
 
 
 </body>
