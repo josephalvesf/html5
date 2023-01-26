@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de imagem</title>
+    <style>
+        div
+        {
+            border:2px solid black ;
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            margin: 2px;
+            
+            display:inline-block; /*colocar os blocos um do lado do outro
+            */
+
+        }
+        div.a
+        {
+            background-color: aqua;
+        }
+        div.a:hover
+        {
+            background-image: linear-gradient( to top, aqua, rgb(0, 4, 255) ) ;
+        }
+        div.b
+        {
+            background-color: blueviolet;
+        }
+        div.b:hover
+        {
+            background-image: linear-gradient(to bottom, blueviolet, rgb(50, 231, 33));
+        }
+        div.c
+        {
+            background-color: bisque;
+        }
+        div.c:hover
+        {
+            background-image: linear-gradient(to left, #444, #633);
+        }
+        div.d
+        {
+            background-color: chartreuse;
+        }
+        div.d:hover
+        {
+            background-image: linear-gradient(to right, #ddd, #aa2);
+        }
+
+    
+    </style>
+</head>
+<body>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="d"></div>
+</body>
+</html>
