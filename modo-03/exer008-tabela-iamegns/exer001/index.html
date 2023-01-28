@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela com imagens</title>
+    <style>
+        body
+        {
+            background-color: black;
+            background-image: url('/modo-03/exer008-tabela-iamegns/imagem-aleatoria/imagens-png/794fc659b025e44256077d2751fe0cdd.jpg');
+            background-repeat: repeat-x;
+            background-size: 60vh;
+            background-attachment: fixed;
+            
+        }
+        main
+        {
+            width:700px ;
+            height:900px ;
+            background-color: whitesmoke;
+            margin: auto;
+            border: 2px solid black;
+            border-radius:50px ;
+        }
+        table
+        {
+            margin: auto;
+            border: 2px solid black;
+            height: 300px;
+            width: 500px;
+            
+        }
+        td, th, caption
+        {
+            border: 1px solid black;
+            border-radius: 2px;
+        }
+        col.nome
+        {
+            background-color: aquamarine;
+            background-image: url('/modo-03/exer008-tabela-iamegns/imagem-aleatoria/Spy-x-Family-2-jpg.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+        col.nome:hover
+        {
+            background-color: rgb(253, 255, 254);
+            
+            background-position: center;
+            background-size: cover;
+        }
+        col.sexo
+        {
+            background-color: aqua;
+        }
+        col.idade
+        {
+            background-color: blanchedalmond;
+        }
+        col.profição
+        {
+            background-color: blueviolet;
+        }
+        .grupo
+        {
+            background-color: aquamarine;
+        }
+        
+       
+    </style>
+
+</head>
+<body>
+    <main>
+        <div>
+            <table>
+                <colgroup>
+                    
+                    <col class="nome" span="4">
+                    <col class="sexo">
+                    <col class="idade">
+                    <col class="profição">
+                </colgroup>
+                
+                <caption>Exercicio de tabela</caption>
+                
+                    <tr>
+
+                        <th scope="col">Nomes</th>
+                        <th scope="col">Sexo</th>
+                        <th scope="col">idade</th>
+                        <th scope="col">Profição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>xxx</td>
+                    <td>zzz</td>
+                    <td>aaa</td>
+                    <td>qqq</td>
+                </tr>
+                <tr>
+                    <td>xxx</td>
+                    <td>zzz</td>
+                    <td>aaa</td>
+                    <td>qqq</td>
+                </tr>
+                <tr>
+                    <td>xxx</td>
+                    <td>zzz</td>
+                    <td>aaa</td>
+                    <td>qqq</td>
+                </tr>
+                <tr>
+                    <td>xxx</td>
+                    <td>zzz</td>
+                    <td>aaa</td>
+                    <td>qqq</td>
+                </tr>
+                <tr>
+                    <td>xxx</td>
+                    <td>zzz</td>
+                    <td>aaa</td>
+                    <td>qqq</td>
+                </tr>
+                <tr>
+                    <td>xxx</td>
+                    <td>zzz</td>
+                    <td>aaa</td>
+                    <td>qqq</td>
+                </tr>
+                <tr>
+                    <td>xxx</td>
+                    <td>zzz</td>
+                    <td>aaa</td>
+                    <td>qqq</td>
+                </tr>
+                <tr>
+                    <td>xxx</td>
+                    <td>zzz</td>
+                    <td>aaa</td>
+                    <td>qqq</td>
+                </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+        </div>
+        <br> <br>
+        <div>
+            <table>
+                <colgroup>
+                    <col class="grupo">
+                    <col class="nome" span="4">
+                    
+                </colgroup>
+               
+                <caption>filmes Favoritos</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">grupo</th>
+                        <th scope="col">Nomes</th>
+                        <th colspan="3" scope="colgroup">Filmes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3" scope="rowgroup">Melhuer</td>
+                        <td>Ana Maria SAntos</td>
+                        <td>Alice</td>
+                        <td>rambo</td>
+                        <td>vingadores</td>
+                    </tr>
+                    <tr>
+                        <td>Beatriz souza</td>
+                        <td> hulk</td>
+                        <td> inceptim</td>
+                        <td>batman</td>
+                    </tr>
+                    <tr>
+                        <td>Claudio</td>
+                        <td> Oblivion</td>
+                        <td>Matrix</td>
+                        <td>big hero</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" scope="rowgroup">Homens</td>
+                        <td>Bruno mendoça</td>
+                        <td>intocaveis</td>
+                        <td>amnesia</td>
+                        <td>gladiador</td>
+                    </tr>
+                    <tr>
+                        <td>Daniel Lourenlo</td>
+                        <td>wall-e</td>
+                        <td>Oldboy</td>
+                        <td>Dangal</td>
+                    </tr>
+                    <tr>
+                        <td>Fabio mota</td>
+                        <td>star wars 5</td>
+                        <td>taxi Driver</td>
+                        <td> toy stroy</td>
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>
+                
+            </table>
+        </div>
+    </main>
+</body>
+</html>

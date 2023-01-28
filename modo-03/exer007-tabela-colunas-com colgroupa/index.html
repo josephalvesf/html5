@@ -9,7 +9,9 @@
         body
         {
             font-family: Arial, Helvetica, sans-serif;
+            
         }
+        
         caption
         {
             background-color: aquamarine;
@@ -31,15 +33,41 @@
         col.cnome
         {
             background-color:cadetblue;
+            background-image: url('/imagen/grifo.jpg');
+            background-size: cover;
             
+        }
+        col.cnome:hover
+        {
+            
+        }
+
+        .cnome, .csexo
+        {
+
         }
         col.csexo
         {
-            background-color: aquamarine;
+          
+            
         }
         col.cprof
         {
             background-color: burlywood;
+        }
+        th:hover
+        {
+            color: blue;
+        }
+        td:hover
+        {
+            color:rgb(11, 88, 255) ;
+            text-align: center;
+            background-image: url('/modo-03/ex004-mudando-o-tamanho-da-imagens/imagem-aleatoria/any-pensamento-maljpg.jpg');
+            background-size: 60px;
+            background-repeat: no-repeat;
+            background-position: right;
+
         }
 
         /**/
@@ -49,8 +77,8 @@
     <h1>tabela</h1>
     <table>
         <colgroup><!--da para deixar (span="") se quiser duas ou mais colucar com o mesmo formado.-->
-            <col class="cnome">
-            <col class="csexo" span="2">
+            <col class="cnome" span="3">
+            <col class="csexo" >
             
             <col class="cprof">
         </colgroup>
