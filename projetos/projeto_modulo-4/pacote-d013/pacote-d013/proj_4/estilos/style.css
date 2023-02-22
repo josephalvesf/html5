@@ -18,6 +18,8 @@ body
 main{
     position: relative;
     height: 100vw;
+    width: 100vh;
+    
     
     
 }
