@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <style>
+        /*
+        required minlength="5"  é o minimo de cariquiterio que pode ter
+        */
+
+        /*
+        maxlength="30 " ->o maximo de letras que pode ter
+        */
+        /*
+        size="10"-> maximo de letras que ele vai mostra para vc.
+        */
+
+        /*
+        placeholder="nome do usuario"  ele deixa escrito na barra ate vc comesa a digitar.
+        */
+    </style>
+</head>
+<body>
+    <h1>teste de formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="off">
+        <p>
+            <label for="isus">Usuraio: </label>
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15">
+        </p>
+        <p>
+            <label for="isen">Senha:</label>
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="20">
+        </p>
+        <p>
+            <input type="submit" value="Emviar">
+            <input type="reset" value="limpar">
+        </p>
+
+
+    </form>
+
+
+
+
+
+
+</body>
+</html>

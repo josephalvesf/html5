@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        *
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /*
+        autocomplete="off" usado para desligar os opção de colucar nomes e senha.
+        */
+        /*
+        usado o label para deixar conectado com o seu elemneto, assim fasilitando para as pesquisa.
+        criando assim uma relação entre eles.
+        */
+        /*
+        method="post" para senha (dados sensives,)
+        */
+        /*
+        method="get" para outras coisas
+         */
+    </style>
+</head>
+<body>
+    <h1>
+        Meu priemiro Formulario
+    </h1>
+    <form action="cadasto.php" method="post" autocomplete="off">
+        <p><label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome">
+        </p>
+
+        <p> <label for="isobremeno">sobrenome</label>     
+            <input type="text" name="sobrenome" id="isobremeno"></p>
+        <p><input type="submit" value="enviar"></p>
+
+    </form>
+</body>
+</html>
