@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        /*
+        action="" é para onde as irformaçoes vão.
+     */
+     /*
+     method-> metodo de envio(post[nao vai conseguir ver as informaçoes]) e (get[aqui vai conseguir ver as informação na url])
+     */
+        /*
+        autocomplete= serve para desligar ou ligar a quela ajuda quando vc colocar o nome ou senha.
+        */
+        /*
+        label é usado no em uma fomulario para deixar ligado o nome com as tag input(texte ou de outras coisa.) vai ser o indedificador.
+        */
+        /*
+           <input type="submit"  é a criação de um butao no formulario.     
+        */
+    </style>
+</head>
+<body>
+    <h1>
+        Meu primeiro formulario.
+    </h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome">
+        </p>
+        <p>
+            <label for="isobre">Sobrenome</label>
+            <input type="text" name="sobre" id="isobre">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+        
+
+    </form>
+</body>
+</html>

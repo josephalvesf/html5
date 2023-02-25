@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomulario</title>
+    <style>
+        /*
+        required (para deixar obrigatorio o preenximento.)
+        */
+        /*
+        minlength="" (é usado para indicar a quantidade minima de letras ou caracteries para vc conseguir proceguir o cadatro.)
+        */
+        /*
+        maxlength="" (vc vai definir a quantidade maxima de letra que vai ser colocado.)
+        */
+        /*
+        <input type="reset" (ele vai apagar td as informaçoes dentro do form)
+        */
+    </style>
+</head>
+<body>
+    <h1>
+        Formulario
+    </h1>
+    <form action="cadastro.php" method="get" autocomplete="off">
+        <p>
+            Usuario:
+            <input type="text" name="usuario" id="iusuario" required minlength="4" maxlength="5">
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" required minlength="3" maxlength="6">
+        </p>
+        <p>
+            <input type="submit" value="Enviar" > <br> <br>
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
