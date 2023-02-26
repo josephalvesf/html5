@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+    /*
+    <input type="color" (para escolher a cor)
+    value= (pode ser usado para ja deixar uma cor)
+
+    */
+
+    /*
+    <input type="range" (usado para meida o nivel de satisfação)
+    min="" e  max="" (usado para definir o minimo e o maximo que o nivel de satisfação vai ter.)
+    value="" (usado aqui para definir o valor que ele vai começa)
+    */
+
+    /*
+    <input type="file" (para colocar ou enviar uma foto {imagen}) [vai ter que usar o metodo {method="post"} para ter mais segurnça.] 
+    */
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+
+            <input type="color" name="cor" id="icor" value="#00ff00">
+            <label for="icor">cor</label>
+
+        </p>
+        <p>
+            <label for="inivel"> Nivel de Satisfação</label>
+            <input type="range" name="nivel" id="inivel" min="1" max="4" 
+            value="2">
+        </p>
+        <p>
+            <label for="ifoto">Foto do perfil</label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>    
+</body>
+</html>
