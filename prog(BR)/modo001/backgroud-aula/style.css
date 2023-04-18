@@ -1,0 +1,33 @@
+/*url-> é o indereço da nossa imagens(isso se tratando de imagens.)*/
+
+div.q1{
+    width: 100px;
+height: 100px;
+    background-image: url('./casa.jpg');
+    background-size: cover;
+} 
+
+div.q2{
+width:200px;
+height:100px;
+background-size: cover;
+background-image: url('./paisagens.jpg');
+
+}
+div.q3
+{
+    width:100px;
+    height:100px;
+    background-image: url('./imagens-rep-02.jpg');
+}
+div.q4
+{
+    width:100px;
+    height:100px;
+    background-image: url('./imagens-repetitiva.jpg');
+}
+p
+{
+background-color: burlywood;
+
+}
