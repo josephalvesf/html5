@@ -1,0 +1,47 @@
+
+
+/*
+50vw (50% da viu porte)
+*/
+/*
+
+*/
+
+#azul
+{
+    width: 50vw;
+    height: 300px;
+    background-color: blue;
+}
+#vermelho
+{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+}
+.foto
+{
+    width: 50%;
+}
+
+
+/*
+        
+
+quando é auterando qual altura na tag pai, eu nao infuencio o tamanho da tag filho.
+
+(usado o wi)
+
+*/
+
+/*
+
+   unidade relativa
+
+   Quando é colocado por porcentagem a autura (width) vai ser infunciada pela a autura da tag pai.
+   logo a tag filho vai mudar de tamanho em relação almento da tag do pai.
+
+
+
+*/
+
