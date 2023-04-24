@@ -1,8 +1,50 @@
-.container{font-size: 60px;}
+.container{font-size: 25px;}
 
-.exemplo01{;
-color: blueviolet;}
+.exemplo01{
+color: blueviolet;
+font-size:  2em;
+}
 
-.exemplo02{}
+.exemplo02{
+    font-size: 20px;
 
-.exemplo03{}
+}
+
+.exemplo03{
+
+    font-size: 50px;
+}
+
+html
+{
+
+}
+/*
+fonte padrao -> 16px
+*/
+
+
+
+
+/*
+o tamanho de funto vai passa de pai para filho.
+o filho vai erda o tamanho de fonte do pai.
+
+
+*/
+
+/*
+{em} unidade de medida.(ela vai ser basiada no valor que a fonte pai ou no principal que ela tiver. 
+o valor colocado nela sempre sei ser em vezes.
+so locar 2 vai ser 2x... e assim para td)
+
+
+*/
+
+/*
+{rem} -> vai se basia na funto raiz.. a fonte raiz é do HTML
+
+td o vai que for colocado com rem tbmv vai ser multiplicado.
+
+2rem logo o valor da fonte do html vai ser 32 (sabendo que a fonte padrao é 16px, porem pode ser autera no css.)
+*/
