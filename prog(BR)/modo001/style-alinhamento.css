@@ -1,0 +1,17 @@
+div
+{
+    
+    background-color: blue;
+    margin: auto;
+    text-align: center;
+}
+ /* 
+ aqui ele vai considera a imagem como um texto, assim ele vai locomovera imagem para qualquer lugar.
+ quem faz td trabalho aqui é o text-align: center;
+ */
+p
+{}
+img
+{
+    
+}

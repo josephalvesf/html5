@@ -1,0 +1,48 @@
+
+
+
+/*    
+nessa primeiro exemplo 
+padding e border vao fazer a div primeira se modificar, ela vai adicionar os valores do padding e borde, assim deixando o valor da tag maior.
+*/
+/*#primeira
+{
+    height:100px ;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+
+    border: 10px solid black;
+} */
+
+
+/* 
+usado  box-sizing: border-box; o padding e borde nao vao fazer auterçao na tag
+*/
+#primeira
+{
+    height:100px ;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+
+    border: 10px solid black;
+
+    box-sizing: border-box;
+}
+
+
+#segunda
+{
+    height:100px  ;
+    width:100px ;
+    background-color: red;
+    color: white;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}

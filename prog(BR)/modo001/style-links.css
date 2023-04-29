@@ -1,0 +1,34 @@
+
+a
+{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+   
+    
+}
+/*piceudo class*/
+
+a:visited
+{
+    background-color: blueviolet;
+    
+
+}
+/*piceudo class */
+
+a:hover
+{
+   
+    padding: 20px;
+}
+
+/*piceudo class  
+estado ativo
+*/ 
+
+{
+    background-color:aquamarine ;
+}a:active

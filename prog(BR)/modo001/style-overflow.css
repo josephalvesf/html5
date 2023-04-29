@@ -1,0 +1,39 @@
+.card
+{
+    width: 300px;
+    height: 300px;
+    background-color: #ccc;
+
+    /*overflow:  auto;*/
+    
+    
+}
+/*
+overflow-x: scroll; (vai forma um rolagem no eixo X)
+*/
+
+
+/*
+overflow-y: scroll; (vai forma um rolagem no eixo Y)
+*/
+
+/*
+overflow:  auto (a rolagen vai ficar somente de cima para baixo, se o texto for so mente na vertical, isso vai ajuda resolver td. ele tbm coloca a rolagen da esquer para direta, assm se adapitando como conteudo.)
+*/
+
+/*
+ overflow:  scroll; (vai ajuda a ver td colocando uma parra de rolagem, assim podendo ver td. so tem um porem, se a tag do texto tiver um width [largura. fazendo a largura da tag ir para o lado, ] tiver assim vc vai pode rola de cima para baixo e da esquerda para direta, assim vendo td. )
+*/
+
+/*
+overflow:  hidden; (ele nao vai mostra td a informçao da tag.)
+*/
+
+/*
+ overflow:  visible; (é a padrao, vai mostra td como era antes, mesmo se estiver vazando.)
+
+*/
+.lorem
+{
+    font-size: 20px;
+}
