@@ -1,0 +1,59 @@
+ul
+{
+    list-style: square ;
+    border: 1px solid;
+    list-style-position: inside;
+    padding: 0;
+}
+
+/*
+para deixar os iconis dentros da borda é preciso usar o 
+list-style-position: inside;
+*/
+li
+{
+    border: 1px solid;
+}
+/*
+
+
+
+list-style:circle (bolinha sem fundo)
+
+list-style:square (quadrado )
+
+
+list-style:none ; (nao vai ter marcador)
+
+*/
+
+ol
+{
+    list-style-image: url('');
+}
+
+/*
+
+list-style-image: url(''); [para colocar imagens, porem a imagens que for colocada não tem como mudar o tamanho dela, logo a imagen vai ter que passa no foto sope.]
+
+*/
+
+/*
+
+  list-style: decimal (numeros)
+
+  list-style: decimal-leading-zero; (vai vir com um zero na frente do numero.)
+
+  
+
+
+  
+
+  
+
+
+
+
+
+
+*/
