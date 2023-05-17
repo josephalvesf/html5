@@ -29,6 +29,11 @@
         {
             background-color: green;
             position: absolute;
+            bottom: 0px;
+            left: 300px;
+            /*
+            se a tag pai nao estiver com position relativo o quadrado verde vai ficar com o px no avó (body aqui pq nao tem outra tag e a autima é a body mesmo.)
+            */
             
             /*left: ;*/
             /*top: ;*/
@@ -39,6 +44,13 @@
             width: 500px;
             height: 400px;
             border: 1px solid gray;
+            position: relative;
+            position: absolute;
+            /*
+            os 2 vai ajuda a deixar o filho dentro da tag pai e assim vc podendo deixar 0 px em qualquer um dos cantos que ele vai ficar. 
+
+            porem se aqui fose position static o filho ia se basiar na tag vó
+            */
         }
         /* 
         so no quadrodo fose display: inline-block, tds os quadrados ficarian um do lado do outro.
