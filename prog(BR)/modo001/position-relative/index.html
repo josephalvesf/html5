@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .quadrado
+        {
+            width: 100px;
+            height: 100px;
+        }
+        .quadrado-red
+        {
+            position: relative;
+            top: 150px;
+            left: 200px;
+            background-color: red;
+        }
+        .quadrado-blue
+        {
+            position: relative;
+            left:150px ;
+            bottom:100px ;
+            /*top: ;*/
+            /*right: ;*/
+            background-color: blue;
+        }
+        .quadrado-green
+        {
+            background-color: green;
+            position: relative;
+            /*left: ;*/
+            /*top: ;*/
+
+        }
+        .quadro
+        {
+            width: 500px;
+            height: 400px;
+            border: 1px solid gray;
+        }
+        /* 
+        so no quadrodo fose display: inline-block, tds os quadrados ficarian um do lado do outro.
+
+        a div quadrado é a tag pai e as outras sao filhos.
+        */
+
+       
+        .quadrado-red:hover
+        {
+            position: relative;
+            top: 300px;
+            background-color: red;
+        }
+        .quadrado-blue:hover
+        {
+            position: relative;
+            left:400px ;
+            
+            top:200px ;
+            
+            background-color: blue;
+        }
+        .quadrado-green:hover
+        {
+            background-color: green;
+            position: relative;
+            left:400px ;
+            top: -200px;
+            }
+
+
+    </style>
+</head>
+<body>
+    <div class="quadro">
+        <div class="quadrado quadrado-red"></div>
+        <div class="quadrado quadrado-blue"></div>
+        <div class="quadrado quadrado-green"></div>
+
+    </div>
+</body>
+</html>
