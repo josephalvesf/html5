@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style type="text/css">
+        body
+        {
+            font-size: 1.2rem;
+        }
+        /* 
+        float é um displei que vai deixar uma elemento fique futuando  do lado de um elemento. 
+        */
+
+        div
+        {
+            border: 1px solid black;
+            /* aqui ficar a bora passando por baixo da imagen (fica mais a borda na tag p)*/
+            overflow: auto;
+            /* com o [overflow: auto; ] a borda fica totalmente na imagnes com o conteudo da tag p */
+        }
+
+        img
+        {
+            float: right;
+        }
+
+        /*
+        float: left; vai ficar futuando a esquernda.
+
+        float: right; vai ficar futuando a direta.
+        */
+
+        p
+        {
+            clear: none;
+        }
+        /*
+         clear: left; nao vai permitir que fique qualquer coisa flutuando a esquerda.
+         clear:right ; não vai permitir que fique qualquer coisa flutuando a direta.
+         clear: both; quando vc nao quer uma imagens flutuando nem do lado direito e nem do lado esquerdo.
+          clear: none; vai permitir imagens ficar flutuando.
+        */
+
+
+        /* p
+        {
+            display: inline;
+        }  (da para usar essa opição, porem fica um espaço muito grande) */
+    </style>
+</head>
+<body>
+    <div>
+        <img src="../imagens/any-estilu.jpg" width="200px" alt="">
+        <p>
+            texto qualquer
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae delectus illum velit quae, rerum asperiores consequatur laboriosam facilis voluptatibus magnam sit iure excepturi non, suscipit ratione eligendi quod labore perspiciatis.
+        </p>
+    </div>
+</body>
+</html>
