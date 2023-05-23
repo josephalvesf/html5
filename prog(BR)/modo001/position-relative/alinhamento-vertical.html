@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alimanhamento-vertical.</title>
+    <style type="text/css">
+        body
+        {
+            font-size: 1.2rem;
+        }
+        .card /*{Pai}*/
+        {
+            width:400px ; /*largura*/
+            height: 200px; /*autura*/
+            border: 2px solid green;
+            float: left; /*para ver um do lado do outro.*/
+            text-align: center; /*para centralizar*/
+            position: relative;
+
+        }
+        /*centralizar verticalmente (modo um)*/
+        .c1/*Filho*/
+        {
+            background-color: brown;
+            line-height: 200px;
+            /*para conseguir fazer isso tem que sair o valor da autura do pai{que no caso é  height: 200px; com isso o valor é 200px }*/
+        }
+        .c2 /*Filho*/ /*centralização vertical (modo 2)*/
+        {
+            background-color: blue;
+            color: white;
+            position: absolute; /*para poder usar {position: absolute} o pai tem que ta com {position: relativo} */ 
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="c1">
+            Jose Alves
+        </div>
+       
+
+    </div>
+    <div class="card">
+        <div class="c2" >
+            Jose Rangel
+        </div>
+    </div>
+</body>
+</html>
