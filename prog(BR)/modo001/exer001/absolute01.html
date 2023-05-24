@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positions</title>
+    <style>
+        p
+        {
+            text-align: center;
+            border-radius: 100%;
+            border: 2px solid black;
+            padding: 0;            
+            background-color: white;
+        }
+        div.quadro
+        {
+            width: 500px;
+            height: 416px;
+            border: 2px solid gray;
+            margin: auto;
+            position: relative;
+        }
+        div.quadrado
+        {
+            width: 40px;
+            height: 40px;
+            border: 2px solid gray;
+            margin: 2px;
+        }
+        .q1
+        {
+            background-color: aqua;
+            position: absolute; 
+            /*fica sem espaço, assim o numero 2 desce.*/
+            right: 0;
+
+        }
+        .q2
+        {
+            background-color: bisque;
+            position: absolute;
+            right: 44px;
+            top: 44px;
+        }
+        .q3
+        {
+            background-color:blue;
+            position:absolute;
+            right: 87px;            
+        }
+        .q4
+        {
+            background-color:blueviolet;
+            position: absolute;
+            right: 130px;
+            top: 44px;
+        }
+        .q5
+        {
+            background-color: brown;
+            position: absolute;
+            right: 174.4px;
+        }
+        .q6
+        {
+            background-color: burlywood;
+            position: absolute;
+            right: 218px;
+            top: 44px;
+        }
+        .q7
+        {
+            background-color: cadetblue;
+        }
+        .q8
+        {
+            background-color: chartreuse;
+        }
+        .q9
+        {
+            background-color: chocolate;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="quadro">
+        <div class="quadrado q1">
+            <p>1</p>
+        </div>
+        <div class="quadrado q2">
+            <p>2</p>
+        </div>
+        <div class="quadrado q3">
+            <p>3</p>
+        </div>
+        <div class="quadrado q4">
+            <p>4</p>
+        </div>
+        <div class="quadrado q5">
+            <p>5</p>
+        </div>
+        <div class="quadrado q6">
+            <p>6</p>
+        </div>
+        <div class="quadrado q7">
+            <p>7</p>
+        </div>
+        <div class="quadrado q8">
+            <p>8</p>
+        </div>
+        <div class="quadrado q9">
+            <p>9</p>
+        </div>
+
+    </div>
+</body>
+</html>
