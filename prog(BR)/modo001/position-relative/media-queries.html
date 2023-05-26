@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media querier</title>
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 0;
+        }
+        .header
+        {
+            overflow: hidden;
+            margin: auto;
+            width: 80%;
+            background: #5c57a4;
+            padding: 15px;
+            font-size: 18px;
+        }
+        .menu
+        {
+            
+            list-style: none; /*para tira das bolinha que finha da tag {li}*/
+            margin: 0;
+            padding: 0;
+            float: right;
+        }
+        li
+        {
+            
+            float: left;
+            color: white;
+            margin-right: 15px;
+        }
+        .logo
+        {
+            float: left;           
+            color: white;
+        }
+         @media screen and (max-width:700px)
+         {
+            .header
+            {
+                background: gray;
+            }
+         }
+
+        @media screen and (max-width:500px) 
+        /*para diferentes de telas, o max que vai ficar na tela.*/
+        {
+            .logo
+            {
+                float: none;
+                text-align: center;
+            }
+            .menu
+            {
+                margin-top: 20px;
+                float: none;
+                text-align: center;
+            }
+            li
+            {
+                float: none;
+                margin-bottom: 5px;
+                padding: 10px;
+            }
+             .header
+            {
+                background:red;
+            }
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            logo
+        </div>
+        <ul class="menu">
+            <li>Home</li>
+            <li>Cursos</li>
+            <li>Contatos</li>
+            <li>Escritorios</li>
+        </ul>
+    </div>
+</body>
+</html>
