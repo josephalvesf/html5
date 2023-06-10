@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+    /* tag {form} é a tag que cria o formulario. */
+    /* para fazer os envios do formulario vamos ter modos de envio, method"GET" e method"post"
+    method"GET" vai mostra as informaçoes. (para manda coias pr o youtube é com deixar mostra a informaçoes.)
+    method"post" nao vai mostra as informaçoes.(boa para site com login, nap vai mostra suas informaçoes)
+
+    com o tempo vc vai ficar sabendo qual usar, se vai ser um 'POST' ou 'GET'
+
+    */
+    
+
+    /*
+         method (metodo de envio)
+
+         action (é o endereço pr onde vai ser enviado. )
+
+         type (pr definir o tipo que vc quer, vai ter vaias obçoes)
+
+         name (informa pr o sevidor o que é. com isso o servidor vai saber onde colocar.)
+
+
+
+    */
+    div
+    {
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+    .a
+    {
+        background-color: black;
+    }
+    .a:hover
+    {
+       background-color: aquamarine;
+       color: blue;
+    }
+   
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Usando( metho "Get") no youtube pr pesquisar. </h1>
+    <form action="https://www.youtube.com/results" method="get">
+        <input type="text" name="search_query">
+        <input type="submit">
+        
+    </form>
+    </div>
+    <div>
+    <h2>Usando o ( metho "POST") no youtube pr pesque</h2>
+    <form action="https://www.youtube.com/results" method="post">
+        <input type="text" name="search_query">
+        <input type="submit">
+
+    </form>
+    </div>
+    <div class="a">
+        
+        <p>
+            usando o <mark>Get</mark> a informação vai ficar amostra, para o youtube isso ajuda na pesquisa.
+            porem pr fazer tela de login isso não é bom, pode deixar sua informações amostra pr outras pessoas ver.
+            logo a melhor opçoes nesse caro seria o <mark> POST </mark> (ele não deixa aparecer as informaçoes) exp:
+        </p>
+    </div>
+
+    <div>
+        <h2>Login (GET)</h2>
+        <form action="#" method="get">
+            <p>Nome</p>
+            <input type="text" name="nome">
+            <p>Sobre Nome</p>
+            <input type="text" name="sopre-nome">
+            <br> <br>
+            <input type="submit">           
+            
+
+        </form>
+    </div>
+
+    <div >
+        <h2>Login (POST)</h2>
+        <form action="#" method="post" >
+            <p>Nome</p>
+            <input type="text" name="nome">
+            <p>Sobre-nome</p>
+            <input type="text" name="sobre-nome">
+            <br>
+            <br>
+            <input type="submit">
+
+        </form>
+    </div>
+</body>
+</html>
